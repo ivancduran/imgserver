@@ -1,0 +1,14 @@
+{
+    "Devel" : false,
+    "Domain" : "amaterasu.co",
+    "Host" : "0.0.0.0:9000",
+    "Api" : "api.",
+    "Fs": false,
+    "Mail" : {
+    	"Smtp": "smtp.mailgun.org",
+    	"FromAlias": "Sample Mail",
+    	"User": "",
+    	"Password": "",
+    	"Port": 587
+    }
+}

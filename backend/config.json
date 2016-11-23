@@ -1,0 +1,14 @@
+{
+    "Devel" : true,
+    "Domain" : "domain.dev",
+    "Host" : "domain.dev:8000",
+    "Api" : "api.",
+    "Fs": false,
+    "Mail" : {
+    	"Smtp": "smtp.mailgun.org",
+    	"FromAlias": "Sample Mail",
+    	"User": "",
+    	"Password": "",
+    	"Port": 587
+    }
+}
