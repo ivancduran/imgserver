@@ -12,7 +12,16 @@ type Conf struct {
 	Host   string
 	Api    string
 	Fs     bool
+	Db     Db
 	Mail   MailConf
+}
+
+type Db struct {
+	Host         string
+	Database     string
+	AuthDatabase string
+	AuthUsername string
+	AuthPassword string
 }
 
 type MailConf struct {

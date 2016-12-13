@@ -4,6 +4,13 @@
     "Host" : "0.0.0.0:9000",
     "Api" : "api.",
     "Fs": false,
+    "Db": {
+        "Host" : "mongodb://localhost:27017",
+        "Database" : "imgserver",
+        "AuthDatabase" : "authdb",
+        "AuthUsername" : "root",
+        "AuthPassword" : "pass"
+    },
     "Mail" : {
     	"Smtp": "smtp.mailgun.org",
     	"FromAlias": "Sample Mail",

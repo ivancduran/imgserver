@@ -1,15 +1,18 @@
 package db
 
 import (
+	"github.com/ivancduran/imgserver/backend/libs"
 	"gopkg.in/mgo.v2"
 )
 
-const (
-	Host         = "mongodb://localhost:27017"
-	Database     = "imgserver"
-	AuthDatabase = "authdb"
-	AuthUserName = "root"
-	AuthPassword = "pass"
+var cfg = libs.GetConf()
+
+var (
+	Host         = cfg.Db.Host
+	Database     = cfg.Db.Database
+	AuthDatabase = cfg.Db.AuthDatabase
+	AuthUserName = cfg.Db.AuthUsername
+	AuthPassword = cfg.Db.AuthPassword
 )
 
 var (

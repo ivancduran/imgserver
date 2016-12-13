@@ -182,8 +182,6 @@ func GetHandler(ctx *iris.Context) {
 
 		}
 
-<<<<<<< HEAD
-=======
 		t := models.Transform{
 			Response:  true,
 			Code:      name,
@@ -199,7 +197,6 @@ func GetHandler(ctx *iris.Context) {
 
 		t.Save()
 
->>>>>>> 67cdfc97ac817b8db8f96a8c0005e749b7dfae4c
 	}
 
 	// validate webp convertion by get params
