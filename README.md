@@ -79,7 +79,9 @@ C:\libwebp\bin
 Test urls:
 ==
 
-http://localhost:8000/get?k=ivan&i=beqEpOQnxnzn1J5J.png&t=fit&w=400&h=150
+http://localhost:8090/v1/install
+http://localhost:8090/v1/up?k=ivan&i=https://golang.org/doc/gopher/fiveyears.jpg
+http://localhost:8090/v1/get?k=ivan&i=IJ5XDyD8tCpz6PvE.jpg&t=fit&w=400&h=150
 
 
 Test Images:
@@ -87,3 +89,7 @@ Test Images:
 
 https://golang.org/doc/gopher/fiveyears.jpg
 https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Gogophercolor.png/1024px-Gogophercolor.png
+
+
+docker run -p 27017:27017 --name some-mongo -d mongo
+docker run --name easycast-db -p 3306:3306 -e MYSQL_ROOT_PASSWORD=pass -d mysql

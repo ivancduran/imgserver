@@ -1,5 +1,5 @@
 node_modules
-source/*
+sources/*
 storage/*
 main
 main.exe
